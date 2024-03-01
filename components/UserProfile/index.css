@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.user-card{
+  height:30vh;
+  width:85%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  justify-content:space-around;
+  gap:1rem;
+  border-radius:10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.profile-pic{
+  height:5rem;
+  width:5rem;
+  border-radius:50%;
+}
+
+.delete-img{
+  height:1rem;
+  width:1rem;
+  background-color:transparent;
+}
+button{
+  height:2rem;
+  width:2rem;
+  border-radius:50%;
+  border:none;
+  background-color:transparent;
+}
